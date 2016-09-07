@@ -2,7 +2,7 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :elixirbot, Elixirbot.Slack, token: "xoxb-77173299413-B3UgrqJtssW6E3ZOxmSLu02S"
+config :elixirbot, Elixirbot.Slack, token: System.get_env("SLACK_TOKEN")
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
