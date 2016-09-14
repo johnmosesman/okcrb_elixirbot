@@ -1,6 +1,8 @@
 # Elixirbot
 
-**TODO: Add description**
+This is a sample elixir bot made for a lightning talk at a local Ruby meetup.
+
+Based on this tutorial: https://medium.com/carwow-product-engineering/getting-started-writing-a-slack-bot-with-elixir-b8877072f038#.ye567l7cr
 
 ## Installation
 
